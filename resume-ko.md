@@ -61,8 +61,9 @@
 [JPA hibernate Query Plan Cache로 인한 OutOfMemory 해결](https://velog.io/@recordsbeat/JPA-hibernate-Plan-Cache%EB%A1%9C-%EC%9D%B8%ED%95%9C-OutOfMemory-%ED%95%B4%EA%B2%B0) 
 
 - 배치 애플리케이션의 트랜잭션 성능 향상 및 lock time 단축 <br>
-[JPA를 사용한 트랜잭션 동시성 처리하기]([https://github.com/recordsbeat/resume-eng/blob/a275fd280ca51d9c9df37c48a34e57ebff157ff4/Handling%20Transaction%20Concurrency%20Using%20JPA.md](https://velog.io/@recordsbeat/JPA%EC%97%90%EC%84%9C-Write-Skew-%EB%B0%A9%EC%A7%80%ED%95%98%EA%B8%B0-locking-%EC%A0%84%EB%9E%B5)) <br>
+[JPA를 사용한 트랜잭션 동시성 처리하기](https://velog.io/@recordsbeat/JPA%EC%97%90%EC%84%9C-Write-Skew-%EB%B0%A9%EC%A7%80%ED%95%98%EA%B8%B0-locking-%EC%A0%84%EB%9E%B5)
 
+<br>
 <br>
 
 
