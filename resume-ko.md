@@ -1,22 +1,12 @@
-## ✔ Info 
+# ✔ INFO
 
-### 이희연 
+## 🙍‍♂️ 이희연 
 ![image](https://user-images.githubusercontent.com/51354965/172858000-9967e637-cf3f-43f7-9fb7-615a0dbd2799.png)
 - Java & Spring 기반 Backend 개발자 (2017 ~ )
 - 소프트웨어 공학 학사
+<br>
 
-### 참고 해주세요
-
-- [LinkedIn](https://www.linkedin.com/in/heeyeon-lee-61763a190/)
-- [Blog](https://velog.io/@recordsbeat) <br>
-- [GitHub](https://github.com/recordsbeat)
-
-### 연락 주세요
-- beathuman@naver.com
-- 링크드인 메신저로 연락주세요!
-
-
-### 경험 해본 것
+## 📂 이력사항
 - **Backend 개발 @NAVER Corp (Sep 2021 - Present)**
   - 마이크로서비스 & 이벤트 드리븐 아키텍처 기반 Backend 개발
   
@@ -35,6 +25,7 @@
 - Infra : Mysql, Elastic Search, Redis, Kafka
 - Monitoring : Grafana, Pinpoint, Spring Admin
 - DevOps : Github, Bitbucket, Jenkins, Aws, Kubernetes 
+<br>
 
 
 ## 🧱 도메인 
@@ -100,3 +91,15 @@
 - API 혹은 메세지를 사용하는 쪽에서 명세(Pact)을 정의하도록 하여, 더 이상 서버 개발자가 API Spec을 제공할 때까지 대기하지 않아도 된다. 
 - Pact broker는 각 마이크로서비스(consumer-provider) 간 관계를 도식화해서 보여준다.
 - 명세(Pact)의 변경 사항을 알 수 있어 리빙 도큐먼트로써 역할을 할 수 있다.
+
+<br>
+
+## 📃 참고 해주세요
+
+- [LinkedIn](https://www.linkedin.com/in/heeyeon-lee-61763a190/)
+- [Blog](https://velog.io/@recordsbeat) <br>
+- [GitHub](https://github.com/recordsbeat)
+
+## 📞 연락 주세요
+- beathuman@naver.com
+- 링크드인 메신저로 연락주세요!
