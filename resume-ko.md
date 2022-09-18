@@ -94,7 +94,6 @@
 - Load reference barrier 를 사용하여 Mark&Swap 과정 분 아니라 Compact 까지 병렬처리 가능하도록 구현되었음
 - API 서버 애플리케이션에 사용할 경우 드라마틱한 성능 향상을 기대
 - [Low-Pause ! Shenandoah GC](https://velog.io/@recordsbeat/Low-Pause-Shenandoah-GC)
-<br>
 
 ### Contract Test (a.k.a Pact)
 - API 혹은 메세지를 사용하는 쪽에서 명세(Pact)을 정의하도록 하여, 더 이상 서버 개발자가 API Spec을 제공할 때까지 대기하지 않아도 된다. 
