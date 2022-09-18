@@ -74,7 +74,7 @@
 - Method fixture를 사용한 테스트 케이스 묘사 (ex. fixture.given_파라미터가_2개...)
 - DBUnit을 사용한 테스트 데이터 초기화 (excel, csv ... )
 
-### CDC(Change Data Capture by Debezium - kafka connect)
+### CDC(데이터 변경 캡처 by Debezium - kafka connect)
 - K8s 환경 내 Debezium(Kafka connect) 인스턴스 구축
 - DB인스턴스 failover 전략 수립
 - Kafka connect 운영 관리 툴 Poc (UI for Apache Kafka 선정)
@@ -84,18 +84,19 @@
 <br><br>
 
 
-## 👂 What I’m interested in
+## 👂 이런 것에 관심 있어요
 
 ### Virtual thread (a.k.a project loom) 
-- Lightweight thread(fiber) will set us free from thread performance so that we don’t need to deal with non-blocking operation for performance
+- 경량스레드, JVM 내부 non-blocking 구현으로 스레드 비용으로부터 자유로워질 것을 기대
+- [Project Loom 새로운 패러다임일까?](https://velog.io/@recordsbeat/Project-Loom-%EC%83%88%EB%A1%9C%EC%9A%B4-%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84%EC%9D%BC%EA%B9%8C)
 
 ### Shenandoah GC (a.k.a Low-pause)
-- Load reference barrier enables not only concurrent marking swap but also compact(evacuation) 
-- Expect it will shrink GC pause time dramatically at Server API application
+- Load reference barrier 를 사용하여 Mark&Swap 과정 분 아니라 Compact 까지 병렬처리 가능하도록 구현되었음
+- API 서버 애플리케이션에 사용할 경우 드라마틱한 성능 향상을 기대
+- [Low-Pause ! Shenandoah GC](https://velog.io/@recordsbeat/Low-Pause-Shenandoah-GC)
+<br>
 
-[Low-Pause ! Shenandoah GC - from my blog](https://github.com/recordsbeat/resume-eng/blob/a275fd280ca51d9c9df37c48a34e57ebff157ff4/Low-Pause%20!%20Shenandoah%20GC.md) <br>
-
-### Consumer Driven Contract Test (a.k.a Pact)
-- Consumer generates Pact, so client side won't need to wait anymore until server gives Api spec(such as swagger)
-- Pact broker shows commnication relcationship between each microservice
-- Handling Pact's version and history easliy (living document)
+### Contract Test (a.k.a Pact)
+- API 혹은 메세지를 사용하는 쪽에서 명세(Pact)을 정의하도록 하여, 더 이상 서버 개발자가 API Spec을 제공할 때까지 대기하지 않아도 된다. 
+- Pact broker는 각 마이크로서비스(consumer-provider) 간 관계를 도식화해서 보여준다.
+- 명세(Pact)의 변경 사항을 알 수 있어 리빙 도큐먼트로써 역할을 할 수 있다.
