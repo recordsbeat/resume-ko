@@ -11,7 +11,7 @@
   - 마이크로서비스 & 이벤트 드리븐 아키텍처 기반 Backend 개발
   
 - **Backend 개발@Wemakeprice(Jul 2020 - Aug 2021 · 1 yr 2 mos)**
-  - 마이크로서비스 아키텍처 기반 검색 노출 데이터 개발
+  - 마이크로서비스 아키텍처 기반 검색 노출 데이터 Backend 개발
   
 - **Backend & Web 개발 @Guiving(Aug 2019 - Jun 2020 · 11 mos)**
 - **Web 개발@Drift Entertainment(Oct 2018 - Aug 2019 · 11 mos)**
