@@ -7,7 +7,7 @@
 <br>
 
 ## 📂 이력사항
-- **인플루언서 검색 백엔드 개발@NAVER Corp (Sep 2021 - Present)**
+- **인플루언서 검색 개발@NAVER Corp (Sep 2021 - Present)**
   - 마이크로서비스 & 이벤트 드리븐 아키텍처 기반 Backend 개발
   
 - **카탈로그 데이터 개발@Wemakeprice(Jul 2020 - Aug 2021 · 1 yr 2 mos)**
