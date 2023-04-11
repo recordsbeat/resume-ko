@@ -65,6 +65,7 @@
 - 테스트 성능 향상을 위한 Testconatiner reuse 정책 사용
 - Method fixture를 사용한 테스트 케이스 묘사 (ex. fixture.given_파라미터가_2개...)
 - DBUnit을 사용한 테스트 데이터 초기화 (excel, csv ... )
+- [마이크로서비스 테스트, Test Honeycomb 전략](https://velog.io/@recordsbeat/Test-Honeycomb-Thoughts)
 
 ### CDC(데이터 변경 캡처 by Debezium - kafka connect)
 - K8s 환경 내 Debezium(Kafka connect) 인스턴스 구축
