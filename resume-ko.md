@@ -19,7 +19,7 @@
 <br>
 
 ## 🔨 개발 환경
-- Framwork : Spring boot 2.7.x
+- Framwork : Spring boot 3.0.x
 - SDK : JDK 11, 17 (modern Java)
 - IDE : IntelliJ
 - Infra : Mysql, Elastic Search, Redis, Kafka
