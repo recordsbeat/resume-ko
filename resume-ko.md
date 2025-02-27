@@ -29,7 +29,7 @@
 
 
 ## 🧱 도메인 
-### 브랜드커넥트[서비스 페이지](https://brandconnect.naver.com/)
+### 브랜드커넥트 @[네이버 독립 플랫폼](https://brandconnect.naver.com/)
 - 크리에이터와 브랜드사를 연결하는 서비스
 
 ### 인플루언서 검색 서비스 (UGC 서비스) @[네이버](https://influencercenter.naver.com) 
