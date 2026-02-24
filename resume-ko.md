@@ -7,8 +7,8 @@
 <br>
 
 ## 📂 이력사항
-- **인플루언서 검색 개발@NAVER Corp (Sep 2021 - Present)**
-  - 마이크로서비스 & 이벤트 드리븐 아키텍처 기반 Backend 개발
+- **Creator Biz Dev@NAVER Corp (Sep 2021 - Present)**
+  - AI Native & 마이크로서비스 & 이벤트 드리븐 아키텍처 기반 Backend 개발
   
 - **카탈로그 데이터 개발@Wemakeprice(Jul 2020 - Aug 2021 · 1 yr 2 mos)**
   - 마이크로서비스 아키텍처 기반 검색 노출 데이터 Backend 개발
@@ -19,16 +19,22 @@
 <br>
 
 ## 🔨 개발 환경
+- AI : Claude Code, Cursor, OpenAI(codex)
 - Framwork : Spring boot 3.0.x
-- SDK : JDK 11, 17 (modern Java)
+- SDK : 17 (modern Java)
 - IDE : IntelliJ
-- Infra : Mysql, Elastic Search, Redis, Kafka
-- Monitoring : Grafana, Pinpoint, Spring Admin
+- Infra : Mysql, Open Search, Redis, Kafka
+- Monitoring : Grafana, Pinpoint
 - DevOps : Github, Bitbucket, Jenkins, Aws, Kubernetes 
 <br>
 
 
 ## 🧱 도메인 
+
+### 쇼핑커넥트 @[제휴 쇼핑 서비스](https://mkt.naver.com/shoppingconnect_beta)
+- 크리에이터와 네이버 스마트스토어의 제휴 판매 중개 서비스
+- 프로젝트 개발 리드 
+  
 ### 브랜드커넥트 @[네이버 독립 서비스](https://brandconnect.naver.com/)
 - 크리에이터와 브랜드사를 연결하는 서비스
 
@@ -50,6 +56,8 @@
 
 ## 💪 이런 것에 자신 있어요
 
+- Spring Cloud Stream 기반 Kafka Stream 실시간 실적 집계 및 Kafka Connect(CDC) + FileBeat 를 사용한 데이터 파이프라인 구성 (TBD)
+
 - 의도하지 않은 쿼리 및 성능 저하를 방지하기 위한 JPA(Hibernate) 라이프사이클 파악<br>
 [QueryDsl 을 사용한 쿼리 튜닝과 N+1 해결](https://velog.io/@recordsbeat/QueryDsl-%EA%B3%BC-JPA-Repository-%EC%82%AC%EC%9A%A9%EC%B2%98) <br>
 [JPA hibernate Query Plan Cache로 인한 OutOfMemory 해결](https://velog.io/@recordsbeat/JPA-hibernate-Plan-Cache%EB%A1%9C-%EC%9D%B8%ED%95%9C-OutOfMemory-%ED%95%B4%EA%B2%B0) 
@@ -62,6 +70,13 @@
 
 
 ## 📑 이런 것들을 해요
+
+### Claude Code 기반 AI 테스트 생성
+- Component Test 기반 Command/Query 비지니스 테스트 컨벤션 수립
+- Unit Test 기반 도메인 모델 비지니스 테스트 컨벤션 수립
+- 테스트 대상 분석 -> 작성 계획 수립 -> 작성 -> 테스트 
+- JaCoCo + SonarQube 를 사용한 coverage 현황 분석 및 미커버 라인 보완
+- Coverage 80% 충족 목표
 
 ### 마이크로서비스 테스트 - Component Test  
 - Testcontainer, wireMock 사용한 테스트 환경 격리
